@@ -1,0 +1,17 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "usage",
+          "debug": true,
+          "targets": "last 2 versions, not dead, > 20%"
+        }
+      ],
+      [
+          "@babel/preset-react"
+      ]
+    ],
+
+    "plugins": ["@babel/plugin-transform-runtime"]
+  }

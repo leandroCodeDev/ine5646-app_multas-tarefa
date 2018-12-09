@@ -1,0 +1,32 @@
+{
+  "name": "app_multas_servidor",
+  "version": "1.0.0",
+  "description": "Aplicação que mostra componentes React da biblioteca PrimeReact",
+  "scripts": {
+    "start": "nodemon --exec npx babel-node src/app.js",
+    "build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PrimeReact"
+  ],
+  "author": "Leandro J. Komosinski",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.2.6",
+    "apollo-server-express": "^2.2.6",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "mongodb": "^3.1.10",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "eslint": "^5.9.0",
+    "nodemon": "^1.18.7"
+  }
+}

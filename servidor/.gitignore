@@ -1,0 +1,12 @@
+node_modules
+publico/bundle.js
+publico/*.svg
+publico/*.ttf
+publico/*.eot
+publico/*.woff
+publico/*.woff2
+publico/*.gif
+publico/*.png
+build
+package-lock.json
+.env
